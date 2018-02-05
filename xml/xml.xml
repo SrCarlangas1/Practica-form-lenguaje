@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questions>
+
+ <question id='profe001'>
+  <type>text</type>
+  <title>1.¿Cuantos meses tiene un año?</title>
+  <answer>12</answer>
+ </question >
+
+ <question id='profe002'>
+  <type>text</type>
+  <title>2.¿Cuantas horas tiene un dia?</title>
+  <answer>24</answer>
+ </question>
+
+ <question id='profe003'>
+  <type>select</type>
+  <title>3.¿Cuantas letras tiene el abecedario ingles?</title>
+  <option>25</option>
+  <option>26</option> 
+  <option>27</option>
+  <option>28</option>
+  <answer >2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+
+ <question id='profe004'>
+  <type>select</type>
+  <title>4.Velocidad maxima en la autopista</title>
+  <option>130</option>
+  <option>150</option> 
+  <option>120</option> 
+  <option>100</option>
+  <answer>3</answer>
+ </question>
+
+  <question id='profe005'>
+  <type>multiple</type>
+  <title>5.Que partes tiene un coche</title>
+  <option>Luces</option>
+  <option>Ruedas</option> 
+  <option>Cocina</option> 
+  <option>Avion</option>
+  <answer>1</answer>
+  <answer>2</answer>
+ </question>
+
+  <question id='profe006'>
+  <type>multiple</type>
+  <title>6.</title>
+  <option>1</option>
+  <option>2</option> 
+  <option>3</option> 
+  <option>4</option>
+  <answer>1</answer>
+  <answer>3</answer>
+ </question>
+
+  <question id='profe007'>
+  <type>checkbox</type>
+  <title>7.Que marcas son de coches</title>
+  <option>Audi</option>
+  <option>SLAM</option> 
+  <option>Mercedes</option> 
+  <option>Microsoft</option>
+  <answer>1</answer>
+  <answer>3</answer>
+ </question>
+
+  <question id='profe008'>
+  <type>checkbox</type>
+  <title>8.Respuestas correctas</title>
+  <option>Los aviones vuelan</option>
+  <option>Los humanos son herbívoros</option> 
+  <option>Los perros saben volar</option> 
+  <option>Los barcos van por el agua</option>
+  <answer>1</answer>
+  <answer>4</answer>
+ </question>
+
+  <question id='profe009'>
+  <type>radio</type>
+  <title>9.Cuando nacio Cristobal Colom</title>
+  <option>1439</option>
+  <option>1437</option> 
+  <option>1436</option> 
+  <option>1435</option>
+  <answer>3</answer>
+ </question>
+
+  <question id='profe010'>
+  <type>radio</type>
+  <title>10.Cuando se creo Google</title>
+  <option>1998</option>
+  <option>2000</option> 
+  <option>1996</option> 
+  <option>1992</option>
+  <answer>1</answer>
+ </question>
+
+</questions>
