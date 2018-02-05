@@ -1,0 +1,125 @@
+body 
+{
+	background-image: url("img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover; 
+}
+#titulo
+{
+	-webkit-text-fill-color: sandybrown;
+  	-webkit-text-stroke-color: red;
+  	-webkit-text-stroke-width: 0.75px;
+  	position:relative;
+  	padding-left: 34%;
+    padding-right: 31%;
+    padding-bottom: 2%;
+}
+h2{
+	-webkit-text-fill-color: chartreuse;
+  	-webkit-text-stroke-color: blue;
+  	-webkit-text-stroke-width: 0.75px;
+  	position:relative;
+    padding-left: 22%;
+    padding-right: 31%;
+    font-size: 200%;
+}
+#pregunta1{
+    position: relative;
+    margin-left: 25%;
+    width: 5%;
+    height: 16%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
+    
+}
+#pregunta2{
+    position: relative;
+    margin-left: 25%;
+    width: 5%;
+    height: 16%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
+}
+#pregunta3{
+    position: relative;
+    margin-left: 25%;
+    width: 10%;
+    height: 16%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
+}
+#pregunta4{
+    position: relative;
+    margin-left: 25%;
+    width: 10%;
+    height: 16%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
+}
+#pregunta5{
+	position:relative;
+    margin-left: 25%;
+}
+#pregunta6{
+	position:relative;
+    margin-left: 25%;
+}
+.pregunta7{
+	position:relative;
+    margin-left: 25%;
+}
+.pregunta8{
+	position:relative;
+    margin-left: 25%;	
+}
+.pregunta9{
+	position:relative;
+    margin-left: 25%;	
+}
+.pregunta10{
+	position:relative;
+    margin-left: 25%;	
+}
+#envio{
+	position:relative;
+    margin-left: 50%;	
+}
+
+#instrucciones{
+    -webkit-text-fill-color: chartreuse;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-width: 0.75px;
+    position:relative;
+    padding-left: 22%;
+    padding-right: 31%;
+    font-size: 200%;
+    float:left;
+}
+#test{
+    position: relative;
+    padding-left: 51%;
+    padding-right: 21%;
+    font-size: 200%;
+    padding-top: 13%;
+    float:left;
+}
+#hiper{
+    text-decoration: none;
+    -webkit-text-fill-color: chartreuse;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-width: 0.75px;
+}
