@@ -1,0 +1,126 @@
+{
+  "questions": {
+    "question": [
+      {
+        "-id": "profe001",
+        "type": "text",
+        "title": "1.¿Cuantos meses tiene un año?",
+        "answer": "12"
+      },
+      {
+        "-id": "profe002",
+        "type": "text",
+        "title": "2.¿Cuantas horas tiene un dia?",
+        "answer": "24"
+      },
+      {
+        "-id": "profe003",
+        "type": "select",
+        "title": "3.¿Cuantas letras tiene el abecedario ingles?",
+        "option": [
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "answer": "2"
+      },
+      {
+        "-id": "profe004",
+        "type": "select",
+        "title": "4.Velocidad maxima en la autopista",
+        "option": [
+          "130",
+          "150",
+          "120",
+          "100"
+        ],
+        "answer": "3"
+      },
+      {
+        "-id": "profe005",
+        "type": "multiple",
+        "title": "5.Que partes tiene un coche",
+        "option": [
+          "Luces",
+          "Ruedas",
+          "Cocina",
+          "Avion"
+        ],
+        "answer": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "-id": "profe006",
+        "type": "multiple",
+        "title": "6.",
+        "option": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": [
+          "1",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe007",
+        "type": "checkbox",
+        "title": "7.Que marcas son de coches",
+        "option": [
+          "Audi",
+          "SLAM",
+          "Mercedes",
+          "Microsoft"
+        ],
+        "answer": [
+          "1",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe008",
+        "type": "checkbox",
+        "title": "8.Respuestas correctas",
+        "option": [
+          "Los aviones vuelan",
+          "Los humanos son herbívoros",
+          "Los perros saben volar",
+          "Los barcos van por el agua"
+        ],
+        "answer": [
+          "1",
+          "4"
+        ]
+      },
+      {
+        "-id": "profe009",
+        "type": "radio",
+        "title": "9.Cuando nacio Cristobal Colom",
+        "option": [
+          "1439",
+          "1437",
+          "1436",
+          "1435"
+        ],
+        "answer": "3"
+      },
+      {
+        "-id": "profe010",
+        "type": "radio",
+        "title": "10.Cuando se creo Google",
+        "option": [
+          "1998",
+          "2000",
+          "1996",
+          "1992"
+        ],
+        "answer": "1"
+      }
+    ]
+  }
+}
