@@ -73,10 +73,24 @@ h2{
 #pregunta5{
 	position:relative;
     margin-left: 25%;
+    width: 10%;
+    height: 16%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
 }
 #pregunta6{
 	position:relative;
     margin-left: 25%;
+    width: 7%;
+    height: 16%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
 }
 .pregunta7{
 	position:relative;
@@ -122,4 +136,14 @@ h2{
     -webkit-text-fill-color: chartreuse;
     -webkit-text-stroke-color: blue;
     -webkit-text-stroke-width: 0.75px;
+}
+
+p{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.75px;
+    position:relative;
+    padding-left: 22%;
+    padding-right: 31%;
+    font-size: 150%;
 }

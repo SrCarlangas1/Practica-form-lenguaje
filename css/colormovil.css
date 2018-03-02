@@ -43,16 +43,48 @@ h2{
 }
 #pregunta3{
 	position:relative;
+    position: relative;
+    width: 17%;
+    height: 30%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
 
 }
 #pregunta4{
 	position:relative;
+    position: relative;
+    width: 25%;
+    height: 30%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
 }
 #pregunta5{
 	position:relative;
+    position: relative;
+    width: 30%;
+    height: 30%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
 }
 #pregunta6{
 	position:relative;
+    position: relative;
+    width: 15%;
+    height: 30%;
+    padding: 1%;
+    font-size: 175%;
+    border-radius: 22%;
+    background-color: lightgoldenrodyellow;
+    border-color: greenyellow;
 }
 .pregunta7{
 	position:relative;
@@ -98,4 +130,12 @@ h2{
     -webkit-text-fill-color: chartreuse;
     -webkit-text-stroke-color: blue;
     -webkit-text-stroke-width: 0.75px;
+}
+
+p{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.75px;
+    position:relative;
+    font-size: 150%;
 }
