@@ -54,12 +54,12 @@
       {
         "-id": "profe006",
         "type": "multiple",
-        "title": "6.",
+        "title": "6.Que marcas son de bicis",
         "option": [
-          "1",
-          "2",
-          "3",
-          "4"
+          "Cube",
+          "Golf",
+          "MET",
+          "Audi"
         ],
         "answer": [
           "1",
