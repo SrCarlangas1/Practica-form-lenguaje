@@ -44,7 +44,7 @@ h2{
 #pregunta3{
 	position:relative;
     position: relative;
-    width: 17%;
+    width: 22%;
     height: 30%;
     padding: 1%;
     font-size: 175%;
@@ -67,7 +67,7 @@ h2{
 #pregunta5{
 	position:relative;
     position: relative;
-    width: 30%;
+    width: 40%;
     height: 30%;
     padding: 1%;
     font-size: 175%;
@@ -78,7 +78,7 @@ h2{
 #pregunta6{
 	position:relative;
     position: relative;
-    width: 15%;
+    width: 30%;
     height: 30%;
     padding: 1%;
     font-size: 175%;
@@ -109,7 +109,7 @@ h2{
     -webkit-text-stroke-width: 0.75px;
     margin-bottom: 26%;
     position: absolute;
-    bottom: 63%;
+    top: -6%;
     padding-left: 31%;
     padding-right: 29%;
     font-size: 200%;
@@ -138,4 +138,12 @@ p{
     -webkit-text-stroke-width: 0.75px;
     position:relative;
     font-size: 150%;
+}
+
+h3{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.75px;
+    position:relative;
+    font-size: 120%;
 }

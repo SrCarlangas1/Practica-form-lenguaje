@@ -125,11 +125,11 @@ h2{
 }
 #test{
     position: relative;
-    padding-left: 51%;
-    padding-right: 21%;
+    padding-left: 29%;
+    padding-right: 18%;
     font-size: 200%;
-    padding-top: 13%;
-    float:left;
+    padding-top: 0%;
+    float: left;
 }
 #hiper{
     text-decoration: none;
@@ -146,4 +146,12 @@ p{
     padding-left: 22%;
     padding-right: 31%;
     font-size: 150%;
+}
+
+h3{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.75px;
+    position:relative;
+    font-size: 120%;
 }
