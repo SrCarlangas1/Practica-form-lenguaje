@@ -1,29 +1,23 @@
-var nota=0;
+
+var objecteJson;
 window.onload = function(){ 
 
  
- //LEER XML de xml/preguntas.xml
-// fichoro xml que está en el servidor rawgit
 var url="https://rawgit.com/SrCarlangas1/Practica-form-lenguaje/master/json/json.json";
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
  if (this.readyState == 4 && this.status == 200) {
-  // función personalizada que gestiona la respuesta a la petición de fichero
   gestionarJson(this.responseText); 
  }
 };
 xhttp.open("GET", url, true); //url del fichero
 xhttp.send();
-
-//****************************************************************************************************
-// Recuperamos los datos del fichero XML xml/preguntas.xml
-// xmlDOC es el documento leido XML. 
  
 }
 
  function gestionarJson(dadesJson){
-  var objecteJson = JSON.parse(dadesJson); //Parse JSON to xmlDoc
+  objecteJson = JSON.parse(dadesJson); //Parse JSON to xmlDoc
  
 //Introducir preguntas//
  //Poner las preguntas del json//
@@ -37,6 +31,7 @@ xhttp.send();
     var sel = document.getElementsByTagName("select")[0];
     for(var i=0;i<no3;i++){
       var opt = document.createElement("option");
+      opt.id = "3"
       opt.value=i+1;
       opt.text=objecteJson.question[2].option[i];
       sel.appendChild(opt);
@@ -47,6 +42,7 @@ xhttp.send();
     respuesta1=parseInt(objecteJson.question[2].answer[0])
     for(var i=0;i<no4;i++){
       var opt = document.createElement("option");
+      opt.id = "4"
       opt.value=i+1;
       opt.text=objecteJson.question[3].option[i];
       sel2.appendChild(opt);
@@ -56,6 +52,7 @@ xhttp.send();
     var sel3 = document.getElementsByTagName("select")[2];
     for(var i=0;i<no5;i++){
       var opt = document.createElement("option");
+      opt.id = "5"
       opt.value=i+1;
       opt.text=objecteJson.question[4].option[i];
       sel3.appendChild(opt);
@@ -65,6 +62,7 @@ xhttp.send();
     var sel4 = document.getElementsByTagName("select")[3];
     for(var i=0;i<no6;i++){
       var opt = document.createElement("option");
+      opt.id = "6"
       opt.value=i+1;
       opt.text=objecteJson.question[5].option[i];
       sel4.appendChild(opt);
@@ -129,31 +127,33 @@ xhttp.send();
       sel8.appendChild(label);
       sel8.appendChild(document.createElement("br"));
     }
-
-
-//Corregir pregunta 1//
-var numeroCorrecto1=objecteJson.question[0].answer;
-var numeroEscrito1=document.getElementById('pregunta1').value;
-function corregirPre1(){     
-  if (numeroEscrito==numeroCorrecto) {
-      alert("bien")
-   nota +=1;
-  }
-  else {
-      alert("mal")
-  }
 }
 
-//Corregir pregunta 2//
-var numeroCorrecto2=objecteJson.question[1].answer;
-var numeroEscrito2=document.getElementById('pregunta2').value;
-function corregirPre2(){   
-  if (numeroCorrecto2==numeroEscrito2) {
-    alert("bien")
-   nota +=1;
+function corrector(){ 
+    var preguntaCorrecta=0;
+    var preguntaIncorrecta=0;
+    //Corregir pregunta 1//
+    var numeroCorrecto=objecteJson.question[0].answer;
+    var numeroEscrito=document.getElementById('pregunta1').value;
+
+        if (numeroEscrito==numeroCorrecto) {
+         preguntaCorrecta +=1;
+        }
+        else {
+         preguntaIncorrecta +=1;
+          }
+
+    //Corregir pregunta 2//
+    var numeroCorrecto1=objecteJson.question[1].answer;
+    var numeroEscrito1=document.getElementById('pregunta2').value; 
+
+        if (numeroCorrecto1==numeroEscrito1) {
+         preguntaCorrecta +=1;
+        }
+        else {
+         preguntaIncorrecta +=1;
+        }
+        
+    alert("Correctas" +preguntaCorrecta+ "Incorrectas" +preguntaIncorrecta);
   }
-  else {
-    alert("mal")
-  }
-}
-}
+      
